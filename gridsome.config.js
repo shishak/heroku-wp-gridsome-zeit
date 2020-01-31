@@ -12,8 +12,8 @@ siteName: "Gridsome",
     {
       use: "@gridsome/source-wordpress",
       options: {
-        baseUrl: "http://34.90.22.150/", // required
-        apiBase: 'index.php?rest_route=',
+        baseUrl: "https://wp-news-api.herokuapp.com/", // required
+        apiBase: 'wp-json',
         typeName: "WordPress" // GraphQL schema name (Optional)
       }
     }
