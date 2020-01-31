@@ -1,7 +1,8 @@
 <template>
   <div>
+  <g-link :to="post.path">
     <h2 v-html="post.title"/>
-    <g-link :to="post.path">Read More, here</g-link>
+    </g-link>
   </div>
 </template>
 
