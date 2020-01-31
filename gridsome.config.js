@@ -12,7 +12,7 @@ siteName: "Gridsome",
     {
       use: "@gridsome/source-wordpress",
       options: {
-        baseUrl: "http://34.90.22.150/index.php?rest_route=", // required
+        baseUrl: "http://34.90.22.150/index.php?rest_route=/", // required
         typeName: "WordPress" // GraphQL schema name (Optional)
       }
     }
