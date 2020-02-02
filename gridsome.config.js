@@ -12,7 +12,7 @@ siteName: "Gridsome",
     {
       use: "@gridsome/source-wordpress",
       options: {
-        baseUrl: "https://wp-news-api.herokuapp.com/", // required
+        baseUrl: "https://mil.in.ua/", // required
         apiBase: 'wp-json',
         typeName: "WordPress" // GraphQL schema name (Optional)
       }
