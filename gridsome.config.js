@@ -8,6 +8,7 @@ siteName: "Gridsome",
     WordPressPostTag: "/tag/:slug" // adds route for "post_tag" post type (Optional)
   },
 
+ 
   plugins: [
     {
       use: "@gridsome/source-wordpress",
